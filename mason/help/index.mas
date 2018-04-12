@@ -1,19 +1,15 @@
 
-<& /page/page_title.mas, title=>"MusaBase Help" &>
+<& /page/page_title.mas, title=>"Erysimum Genome Help" &>
 
-<div>MusaBase is a breeding database implementing tools to manage data and next-generation breeding protocols based on high density marker data for banana species used as major food sources in Africa.</div>
+The Erysimum Genome was sequenced by a consortium consisting of scientists at the Boyce Thompson Institute in Ithaca, NY and the University of Bern, Switzerland.
 
-<h3>Manual</h3>
+<h3>Publication</h3>
 
-<div>The MusaBase manual is available as a <a href="https://docs.google.com/document/d/1ZJjxsarGqGTv4HgJTt-EodOoaEmJ3lgSeV0Qq_YKJaY">Google Doc</a>. It was written for CassavaBase but MusaBase is based on CassavaBase, so the manual applies to MusaBase as well.</div>
+Citation goes here.
 
 <h3>FAQ</h3>
 
 <div>For frequently asked questions, see the <a href="/help/faq">FAQ page</a>.</div>
-
-<h3>SlideShare</h3>
-
-<div>SlideShare has <a href="http://www.slideshare.net/solgenomics">a collection of slide decks</a> about the related <a href="https://solgenomics.net">SGN</a> and <a href="https://cassavabase.org">CassavaBase</a> databases.
 
 
 
