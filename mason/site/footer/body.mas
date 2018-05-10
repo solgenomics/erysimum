@@ -1,5 +1,5 @@
 
-<& /site/footer/common.mas &>
+<!-- site/footer/common.mas is called from default footer.mas in sgn repo -->
 
 <div class="modal fade" id="working_modal" name="working_modal" tabindex="-1" role="dialog" aria-labelledby="workingModalDialog" data-controls-modal="your_div_id" data-backdrop="static" data-keyboard="false" href="#">
   <div class="modal-dialog modal-sm" role="document">
