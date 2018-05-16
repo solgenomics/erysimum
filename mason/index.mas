@@ -8,9 +8,12 @@ $show_accept_dialog => undef
 <br/>
 <!-- & homepage/carousel.mas & -->
 <br/>
-</center>
 
+<h1>Welcome to the Erysimum Genome Site!</h1>
 <br/>
-
-
+<img src="https://upload.wikimedia.org/wikipedia/en/1/1c/Erysimum-scoparium.jpg" />
+</center>
+<br />
+<br />
+<br />
 <& homepage/github_pullrequests.mas &>
