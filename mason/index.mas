@@ -11,7 +11,21 @@ $show_accept_dialog => undef
 
 <h1>Welcome to the Erysimum Genome Site!</h1>
 <br/>
-<img src="https://upload.wikimedia.org/wikipedia/en/1/1c/Erysimum-scoparium.jpg" />
+
+<& /image/embed_image.mas, dbh=>$schema->storage->dbh(), image_id=>2429, size=>"medium" &>
+&nbsp;
+<& /image/embed_image.mas, dbh=>$schema->storage->dbh(), image_id=>2428, size=>"medium" &>
+<br /><br />
+<& /image/embed_image.mas, dbh=>$schema->storage->dbh(), image_id=>2427, size=>"medium" &>
+
+<br />
+<br />
+From upper left:
+<i>Erysimum cazorlense</i>, 
+<i>Erysimum myriophyllum</i>, 
+<i>Erysimum nevadense</i>.<br />
+Photo credit &amp; &copy;: Tobias Zuest. Photos taken in Spain.
+
 </center>
 <br />
 <br />
