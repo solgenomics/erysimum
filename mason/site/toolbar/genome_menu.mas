@@ -5,5 +5,7 @@
     <li role="separator" class="divider"></li>
     <li class="dropdown-header">Sequence Analysis</li>
     <li><a href="/tools/blast/">BLAST</a></li>
+    <li role="separator" class="divider"></li>
+    <li><a href="ftp://erysimum.org">FTP Download</a></li>
   </ul>
 </li>
