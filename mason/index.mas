@@ -12,6 +12,9 @@ $show_accept_dialog => undef
 <h1>Welcome to the Erysimum Genome Site!</h1>
 <br/>
 
+<& /image/embed_image.mas, dbh=>$schema->storage->dbh(), image_id=>2430, size=>"large" &>
+<br />
+<br />
 <& /image/embed_image.mas, dbh=>$schema->storage->dbh(), image_id=>2429, size=>"medium" &>
 &nbsp;
 <& /image/embed_image.mas, dbh=>$schema->storage->dbh(), image_id=>2428, size=>"medium" &>
@@ -30,4 +33,4 @@ Photo credit &amp; &copy;: Tobias Zuest. Photos taken in Spain.
 <br />
 <br />
 <br />
-<& homepage/github_pullrequests.mas &>
+<!-- & homepage/github_pullrequests.mas & -->
