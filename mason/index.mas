@@ -16,7 +16,7 @@ $show_accept_dialog => undef
 
 NEWS<br />
 <ul>
-<li>(May 13, 2022) The FTP site has been turned off, but data can be downloaded through https at <a href="https://erysimum.org/ftp">https://erysimum.org/ftp</a>.</li><br />
+<li>(May 13, 2022) The FTP site has been turned off, but data can be downloaded through https at <a href="https://erysimum.org/ftp">https://erysimum.org/ftp</a>.<br /></li>
 <li>(Oct 20, 2020) &#8212; Erysimum v2.0 genome released in <a href="/tools/blast">BLAST</a></li>
 </ul>
 </div>
