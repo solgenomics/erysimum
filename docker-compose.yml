@@ -1,0 +1,37 @@
+
+services:
+  breedbase:
+    image: breedbase/breedbase:latest
+
+    container_name: breedbase_web_erysimum
+    ports:
+      - 8102:8080
+    volumes:
+      - type: bind
+        source: /export/prod/public_erysimum
+        target: /home/production/public
+      - type: bind
+        source: /export/prod/public_erysimum/cxgn_blast_databases
+        target: /home/production/blast
+      - type: bind
+        source: sgn_local.conf
+        target: /home/production/cxgn/sgn/sgn_local.conf
+      - type: bind
+        source: db_dumps
+        target: /db_dumps
+#      - type: bind
+#        source: crontab
+#        target: /etc/crontab
+      - type: bind
+        source: bash_history
+        target: /home/production/.bash_history
+      - type: bind
+        source: mason
+        target: /home/production/cxgn/erysimum/mason
+
+volumes:
+  webdata:
+  dbdata:
+
+
+
