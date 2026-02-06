@@ -5,7 +5,7 @@ services:
 
     container_name: breedbase_web_erysimum
     ports:
-      - 8106:8080
+      - 8107:8080
     volumes:
       - type: bind
         source: /export/prod/public_erysimum
